@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-intentdocs-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://intentdocs.com/
+IntentDocs turns your app idea into a spec your AI coding agent builds exactly to, one story at a time, and shows you proof each piece works. It is a spec‑driven development platform for AI coding agents, letting you generate structured specs from an AI interview, connect Claude Code, Cursor, or any MCP client over MCP, and get an audit trail of what was built versus what was planned. You can start for free and build your first story without a credit card.
+
+**Areas:** Company · AI · Spec-Driven · Platform · Automation · Low-Code
+
+## intentdocs-com on APIs.io
+
+Everything profiled for intentdocs-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/intentdocs-com/](https://apis.io/providers/intentdocs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [intentdocs-com CLI API](https://apis.io/apis/intentdocs-com/intentdocs-com-cli-api/) — Authentication and project discovery for CLI tools like intentdocs-cli
+- [intentdocs-com MCP API](https://apis.io/apis/intentdocs-com/intentdocs-com-mcp-api/) — Model Context Protocol endpoint for AI development tools (Claude Code, Cursor, etc.)
+- [intentdocs-com OAuth API](https://apis.io/apis/intentdocs-com/intentdocs-com-oauth-api/) — OAuth 2.1 authorization and token endpoints
+- [intentdocs-com Sync API](https://apis.io/apis/intentdocs-com/intentdocs-com-sync-api/) — Sync API for external tools to read/write story maps, log activities, and report progress
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Intentdocs Com Agentic Access](https://apis.io/agentic-access/intentdocs-com/intentdocs-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [AcceptanceCriterion](https://apis.io/schemas/intentdocs-com/intentdocs-com-acceptance-criterion/)
+- [BuildOrderStory](https://apis.io/schemas/intentdocs-com/intentdocs-com-build-order-story/)
+- [Decision](https://apis.io/schemas/intentdocs-com/intentdocs-com-decision/)
+- [Story](https://apis.io/schemas/intentdocs-com/intentdocs-com-story/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Intentdocs Com Context](https://apis.io/jsonld/intentdocs-com/intentdocs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [intentdocs-com API Rules](https://apis.io/rules/intentdocs-com/intentdocs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Intentdocs Com Authentication](https://apis.io/security/intentdocs-com/intentdocs-com-authentication/)
+- [Intentdocs Com Domain Security](https://apis.io/security/intentdocs-com/intentdocs-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Intentdocs Com Scopes](https://apis.io/scopes/intentdocs-com/intentdocs-com-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://intentdocs.com/)
+- [Documentation](https://www.intentdocs.com/developers)
+- [Getting started](https://www.intentdocs.com/connect)
+- [Pricing](https://www.intentdocs.com/pricing)
+- [Support](https://www.intentdocs.com/support)
+- [Blog](https://www.intentdocs.com/blog)
+- [Terms of service](https://www.intentdocs.com/terms)
+- [Privacy policy](https://www.intentdocs.com/privacy)
+- [GitHub](https://github.com/intentdocs)
+
+## API Evangelist rating
+
+**Kin Score 56.5** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 44.7 |
+
+**Agent readiness 50.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/intentdocs-com/](https://apis.io/providers/intentdocs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for intentdocs-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/intentdocs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
